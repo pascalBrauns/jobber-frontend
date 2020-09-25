@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "watch": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "lib": ["ES2017", "es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "types": [],
+    "baseUrl": "./src",
+    "paths": {
+      "Component/*": ["./Component/*"],
+      "Mock/*": ["./Mock/*"],
+      "Utility/*": ["./Utility/*"],
+      "Type/*": ["./Type/*"],
+      "Constant/*": ["./Constant/*"],
+      "Api/*": ["./Api/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/*"
+  ]
+}
